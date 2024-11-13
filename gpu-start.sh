@@ -1,1 +1,1 @@
-docker build -t mnist-gpu -f Dockerfile.gpu . && docker run --rm --gpus all mnist-gpu
+docker build -t mnist-gpu -f Dockerfile.gpu . && docker run --rm --runtime=nvidia --gpus all mnist-gpu

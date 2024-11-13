@@ -1,0 +1,1 @@
+docker build -t mnist-gpu -f Dockerfile.gpu . && docker run --rm --gpus all mnist-gpu

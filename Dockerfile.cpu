@@ -1,0 +1,8 @@
+# CPU version
+FROM tensorflow/tensorflow:latest
+
+
+COPY train_model.py /app/train_model.py
+WORKDIR /app
+
+CMD ["python3", "train_model.py"]

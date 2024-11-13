@@ -1,0 +1,1 @@
+docker build -t mnist-cpu -f Dockerfile.cpu . && docker run --rm mnist-cpu

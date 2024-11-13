@@ -1,5 +1,5 @@
 # CPU version
-FROM tensorflow/tensorflow:latest
+FROM tensorflow/tensorflow:2.11.0
 
 
 COPY train_model.py /app/train_model.py
